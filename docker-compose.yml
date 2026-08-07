@@ -1,0 +1,116 @@
+name: demo-rag
+
+# One command brings up the whole demo:
+#     docker compose up --build
+#
+# Startup order is enforced with health checks and a one-shot ingest job, so by
+# the time the frontend is reachable the catalog is loaded, embedded, and
+# indexed. See README.md for the local (non-Docker) development flow.
+
+services:
+  postgres:
+    # pgvector/pgvector ships PostgreSQL with the vector extension preinstalled,
+    # so there is no build step or CREATE EXTENSION dance.
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: demo
+      POSTGRES_DB: demo_rag
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Applied automatically on first container start.
+      - ./services/api/app/db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U demo -d demo_rag"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  opensearch:
+    image: opensearchproject/opensearch:2.17.1
+    environment:
+      discovery.type: single-node
+      bootstrap.memory_lock: "true"
+      OPENSEARCH_JAVA_OPTS: "-Xms512m -Xmx512m"
+      # OpenSearch 2.12+ runs zxcvbn strength validation on this and refuses to
+      # start if it fails. It must not contain the word "admin" — that is
+      # rejected as "similar to user name" — and needs upper, lower, digit, and
+      # a special character.
+      OPENSEARCH_INITIAL_ADMIN_PASSWORD: ${OPENSEARCH_PASSWORD:-Vect0r@Se4rch-2026}
+    ulimits:
+      memlock: { soft: -1, hard: -1 }
+      nofile: { soft: 65536, hard: 65536 }
+    ports:
+      - "9200:9200"
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - >-
+          curl -sk -u admin:${OPENSEARCH_PASSWORD:-Vect0r@Se4rch-2026}
+          https://localhost:9200/_cluster/health || exit 1
+      interval: 10s
+      timeout: 5s
+      # OpenSearch runs its security-plugin demo installer on first boot, which
+      # is slow on a cold volume — give it up to 5 minutes before failing.
+      retries: 30
+      start_period: 30s
+
+  # One-shot job: loads data/products.json, creates embeddings, writes vectors
+  # to Postgres and indexes reviews into OpenSearch, then exits. Idempotent —
+  # it truncates and reloads, so re-running `docker compose up` is safe.
+  ingest:
+    build:
+      context: .
+      dockerfile: services/api/Dockerfile
+    command: ["python", "scripts/ingest.py"]
+    environment:
+      DATABASE_URL: postgresql+psycopg://demo:demo@postgres:5432/demo_rag
+      OPENSEARCH_ENDPOINT: https://opensearch:9200
+      OPENSEARCH_PASSWORD: ${OPENSEARCH_PASSWORD:-Vect0r@Se4rch-2026}
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      EMBEDDING_PROVIDER: ${EMBEDDING_PROVIDER:-local}
+      VOYAGE_API_KEY: ${VOYAGE_API_KEY:-}
+    depends_on:
+      postgres: { condition: service_healthy }
+      opensearch: { condition: service_healthy }
+    restart: "no"
+
+  api:
+    build:
+      context: .
+      dockerfile: services/api/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg://demo:demo@postgres:5432/demo_rag
+      OPENSEARCH_ENDPOINT: https://opensearch:9200
+      OPENSEARCH_PASSWORD: ${OPENSEARCH_PASSWORD:-Vect0r@Se4rch-2026}
+      CORS_ORIGINS: '["http://localhost:3000"]'
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      EMBEDDING_PROVIDER: ${EMBEDDING_PROVIDER:-local}
+      VOYAGE_API_KEY: ${VOYAGE_API_KEY:-}
+    depends_on:
+      ingest: { condition: service_completed_successfully }
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/frontend/Dockerfile
+      args:
+        # Baked into the client bundle — must be reachable from the browser.
+        NEXT_PUBLIC_API_URL: http://localhost:8000
+    ports:
+      - "3000:3000"
+    environment:
+      # Server components run inside this container and resolve the API by
+      # compose service name instead.
+      API_URL_INTERNAL: http://api:8000
+    depends_on:
+      - api
+
+volumes:
+  postgres_data:
