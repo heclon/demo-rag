@@ -1,0 +1,18 @@
+# Pinned for reproducible builds. Verified on Python 3.11 - 3.14.
+
+fastapi==0.141.1
+uvicorn[standard]==0.52.1
+pydantic==2.13.4
+pydantic-settings==2.14.2
+SQLAlchemy==2.0.51
+psycopg[binary]==3.3.4
+pgvector==0.5.0
+opensearch-py==3.2.0
+python-dotenv==1.2.2
+tenacity==9.1.4
+structlog==26.1.0
+httpx==0.28.1
+
+# Only imported when LLM_PROVIDER=anthropic. The demo runs without it, but it
+# is pinned here so `pip install -r requirements.txt` gives you the option.
+anthropic==0.75.0
