@@ -1,0 +1,8 @@
+{
+  "name": "@demo-rag/shared-types",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "description": "Shared TypeScript types between the Next.js frontend and (informally) the FastAPI backend's Pydantic schemas."
+}
