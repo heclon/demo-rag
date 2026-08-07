@@ -1,0 +1,1596 @@
+[
+  {
+    "title": "ZenBook Air 14",
+    "brand": "Asus",
+    "category": "Laptops",
+    "price": 1099.0,
+    "rating": 4.6,
+    "inventory": 12,
+    "description": "Ultra-light 14-inch aluminium laptop built for people who work on the move. Fanless under light load and thin enough to disappear into a backpack.",
+    "specifications": {
+      "screen": "14 inch OLED",
+      "weight": "1.1 kg",
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "battery": "67 Wh",
+      "ports": "2x USB-C, 1x HDMI"
+    },
+    "reviews": [
+      {
+        "author": "Marta R.",
+        "rating": 5.0,
+        "title": "Perfect travel laptop",
+        "body": "I fly twice a month and this is the first laptop I stopped noticing in my bag. Battery life is genuinely all day — I got about eleven hours of writing and browsing on a transatlantic flight without charging."
+      },
+      {
+        "author": "Dev P.",
+        "rating": 4.0,
+        "title": "Great screen, warm under load",
+        "body": "The OLED panel is gorgeous for photo work. It does get warm on the underside when I compile for a while, so it is not a lap machine when working hard."
+      },
+      {
+        "author": "Ingrid L.",
+        "rating": 5.0,
+        "title": "Light enough to forget",
+        "body": "Weight is the whole story here. 1.1 kg means I carry it everywhere. Keyboard is shallow but comfortable enough for long sessions."
+      }
+    ]
+  },
+  {
+    "title": "ProBook 15 Developer Edition",
+    "brand": "Dell",
+    "category": "Laptops",
+    "price": 1449.0,
+    "rating": 4.4,
+    "inventory": 7,
+    "description": "Fifteen-inch developer workstation with a 45W processor, 32 GB of memory and Linux preinstalled. Built for compiling, containers, and running local databases.",
+    "specifications": {
+      "screen": "15.6 inch IPS",
+      "weight": "1.8 kg",
+      "ram": "32 GB",
+      "storage": "1 TB SSD",
+      "battery": "86 Wh",
+      "os": "Ubuntu LTS"
+    },
+    "reviews": [
+      {
+        "author": "Sam K.",
+        "rating": 5.0,
+        "title": "Compiles fast, Linux just works",
+        "body": "Every piece of hardware worked on Ubuntu out of the box, which is rare. Docker builds that took four minutes on my old machine take ninety seconds."
+      },
+      {
+        "author": "Rae M.",
+        "rating": 4.0,
+        "title": "Heavy but worth it",
+        "body": "It is not a travel machine at 1.8 kg and the battery drains quickly under a full build. As a desk machine it is excellent."
+      },
+      {
+        "author": "Tom V.",
+        "rating": 4.0,
+        "title": "Fans are loud",
+        "body": "My only real complaint is fan noise under sustained load. In a quiet room it is very noticeable."
+      }
+    ]
+  },
+  {
+    "title": "MacBook Air M3 13",
+    "brand": "Apple",
+    "category": "Laptops",
+    "price": 1199.0,
+    "rating": 4.8,
+    "inventory": 20,
+    "description": "Silent, fanless 13-inch laptop with exceptional battery life and a high-quality display. The default choice for general-purpose work.",
+    "specifications": {
+      "screen": "13.6 inch Liquid Retina",
+      "weight": "1.24 kg",
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "battery": "52.6 Wh",
+      "chip": "M3"
+    },
+    "reviews": [
+      {
+        "author": "Priya N.",
+        "rating": 5.0,
+        "title": "Battery life is unreal",
+        "body": "Two full working days between charges. I stopped carrying the charger to the office entirely."
+      },
+      {
+        "author": "Owen B.",
+        "rating": 5.0,
+        "title": "Completely silent",
+        "body": "No fan means no noise, ever. After years of whining laptop fans this alone was worth the upgrade."
+      },
+      {
+        "author": "Lila F.",
+        "rating": 4.0,
+        "title": "Only two ports",
+        "body": "Wonderful machine, but two USB-C ports and nothing else means living with a dongle."
+      }
+    ]
+  },
+  {
+    "title": "Nitro Gaming 16",
+    "brand": "Acer",
+    "category": "Laptops",
+    "price": 1699.0,
+    "rating": 4.2,
+    "inventory": 5,
+    "description": "Sixteen-inch gaming laptop with a discrete GPU and a 165 Hz display. Also capable as a machine-learning workstation for local model experimentation.",
+    "specifications": {
+      "screen": "16 inch 165Hz",
+      "weight": "2.6 kg",
+      "ram": "32 GB",
+      "storage": "1 TB SSD",
+      "gpu": "RTX 4070",
+      "battery": "90 Wh"
+    },
+    "reviews": [
+      {
+        "author": "Kenji A.",
+        "rating": 4.0,
+        "title": "Fast, but plan for the charger",
+        "body": "Performance is excellent and it trains small models locally without complaint. Battery life away from power is under two hours, so treat it as a portable desktop."
+      },
+      {
+        "author": "Nina S.",
+        "rating": 4.0,
+        "title": "Loud fans, great value",
+        "body": "The fans are aggressive. Ear defenders or headphones are basically mandatory during long sessions."
+      }
+    ]
+  },
+  {
+    "title": "Chromebook Go 12",
+    "brand": "HP",
+    "category": "Laptops",
+    "price": 329.0,
+    "rating": 4.0,
+    "inventory": 34,
+    "description": "Budget twelve-inch laptop for browsing, documents, and video calls. Rugged plastic shell designed for students.",
+    "specifications": {
+      "screen": "12 inch",
+      "weight": "1.05 kg",
+      "ram": "8 GB",
+      "storage": "128 GB eMMC",
+      "battery": "47 Wh"
+    },
+    "reviews": [
+      {
+        "author": "Hugo T.",
+        "rating": 4.0,
+        "title": "Does what it says",
+        "body": "Cheap, light, and the battery lasts the whole school day. Do not expect it to handle anything heavy."
+      },
+      {
+        "author": "Beth C.",
+        "rating": 3.5,
+        "title": "Screen is dim",
+        "body": "Works fine indoors but the display is too dim to use outside or near a bright window."
+      }
+    ]
+  },
+  {
+    "title": "Studio Laptop 17",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "price": 2199.0,
+    "rating": 4.5,
+    "inventory": 3,
+    "description": "Seventeen-inch colour-accurate laptop for video editors and designers, with a factory-calibrated display and a full-size card reader.",
+    "specifications": {
+      "screen": "17 inch 4K",
+      "weight": "2.4 kg",
+      "ram": "64 GB",
+      "storage": "2 TB SSD",
+      "colour": "100% DCI-P3"
+    },
+    "reviews": [
+      {
+        "author": "Sofia D.",
+        "rating": 5.0,
+        "title": "Colour accuracy out of the box",
+        "body": "I checked it against my calibrated monitor and the difference was negligible. Saves me a step on every job."
+      },
+      {
+        "author": "Marc J.",
+        "rating": 4.0,
+        "title": "Enormous",
+        "body": "It is a desk machine that happens to fold. Do not buy this expecting to use it on a train."
+      }
+    ]
+  },
+  {
+    "title": "ErgoSplit Pro Mechanical",
+    "brand": "Kinesis",
+    "category": "Keyboards",
+    "price": 289.0,
+    "rating": 4.7,
+    "inventory": 9,
+    "description": "Split ergonomic mechanical keyboard with tenting and a concave key well, designed to reduce wrist strain during long typing sessions. Popular with programmers who type all day.",
+    "specifications": {
+      "switch_type": "tactile brown",
+      "layout": "split ergonomic",
+      "connection": "USB-C wired",
+      "keycaps": "PBT",
+      "programmable": "yes, on-board layers"
+    },
+    "reviews": [
+      {
+        "author": "Alex W.",
+        "rating": 5.0,
+        "title": "Fixed my wrist pain",
+        "body": "Six months of RSI and two weeks with this keyboard and the pain is gone. The split and tenting mean my forearms stay straight all day."
+      },
+      {
+        "author": "Jo H.",
+        "rating": 4.0,
+        "title": "Steep learning curve",
+        "body": "Took me a solid three weeks to get back to full typing speed. Worth it, but budget for the adjustment period."
+      },
+      {
+        "author": "Cam O.",
+        "rating": 5.0,
+        "title": "Programmable layers are the point",
+        "body": "Being able to put symbols on a layer under my home row changed how I write code. No more reaching for brackets."
+      }
+    ]
+  },
+  {
+    "title": "TypeMaster 87 TKL",
+    "brand": "Keychron",
+    "category": "Keyboards",
+    "price": 99.0,
+    "rating": 4.5,
+    "inventory": 41,
+    "description": "Tenkeyless mechanical keyboard with hot-swappable switches and wireless connectivity. A comfortable, affordable entry into mechanical keyboards for developers.",
+    "specifications": {
+      "switch_type": "linear red, hot-swappable",
+      "layout": "87-key TKL",
+      "connection": "Bluetooth and USB-C",
+      "keycaps": "PBT double-shot",
+      "battery": "4000 mAh"
+    },
+    "reviews": [
+      {
+        "author": "Dana E.",
+        "rating": 5.0,
+        "title": "Best value for programmers",
+        "body": "Hot-swap sockets mean I could try three switch types without buying three keyboards. Comfortable for eight-hour days."
+      },
+      {
+        "author": "Ravi S.",
+        "rating": 4.0,
+        "title": "Bluetooth drops occasionally",
+        "body": "Great keyboard wired. Over Bluetooth it disconnects maybe once a week and needs re-pairing."
+      },
+      {
+        "author": "Ellie G.",
+        "rating": 5.0,
+        "title": "Quiet enough for the office",
+        "body": "With the linear switches and the included dampeners nobody around me complains."
+      }
+    ]
+  },
+  {
+    "title": "Compact 60 Wireless",
+    "brand": "Logitech",
+    "category": "Keyboards",
+    "price": 79.0,
+    "rating": 4.3,
+    "inventory": 28,
+    "description": "Sixty-percent wireless keyboard that saves desk space and travels well. Low-profile scissor switches keep the height down.",
+    "specifications": {
+      "switch_type": "low-profile scissor",
+      "layout": "60%",
+      "connection": "Bluetooth",
+      "battery": "10 days",
+      "weight": "420 g"
+    },
+    "reviews": [
+      {
+        "author": "Yuki M.",
+        "rating": 4.0,
+        "title": "Great for travel",
+        "body": "Fits in the laptop sleeve pocket. I take it on every trip so I am not stuck on a laptop keyboard."
+      },
+      {
+        "author": "Peter L.",
+        "rating": 3.5,
+        "title": "Miss the arrow keys",
+        "body": "The 60% layout means arrows live on a function layer. Fine for typing, frustrating for spreadsheets."
+      }
+    ]
+  },
+  {
+    "title": "SilentTouch Office",
+    "brand": "Microsoft",
+    "category": "Keyboards",
+    "price": 59.0,
+    "rating": 4.1,
+    "inventory": 52,
+    "description": "Quiet membrane keyboard with a padded wrist rest, intended for shared offices where noise matters.",
+    "specifications": {
+      "switch_type": "membrane",
+      "layout": "full-size",
+      "connection": "USB-A wired",
+      "wrist_rest": "integrated foam"
+    },
+    "reviews": [
+      {
+        "author": "Grace P.",
+        "rating": 4.0,
+        "title": "Genuinely silent",
+        "body": "You can type through a meeting on video and nobody hears it."
+      },
+      {
+        "author": "Ian R.",
+        "rating": 4.0,
+        "title": "Wrist rest is the best part",
+        "body": "The keyboard is unremarkable. The wrist rest is unexpectedly good and I would miss it now."
+      }
+    ]
+  },
+  {
+    "title": "Mech Pro Programmer 75",
+    "brand": "Ducky",
+    "category": "Keyboards",
+    "price": 149.0,
+    "rating": 4.6,
+    "inventory": 16,
+    "description": "Seventy-five-percent mechanical keyboard balancing a compact footprint with dedicated arrow keys and a function row. Built for developers who want ergonomics without a split layout.",
+    "specifications": {
+      "switch_type": "tactile clear",
+      "layout": "75%",
+      "connection": "USB-C wired",
+      "keycaps": "PBT",
+      "programmable": "QMK compatible"
+    },
+    "reviews": [
+      {
+        "author": "Nadia K.",
+        "rating": 5.0,
+        "title": "The right compromise",
+        "body": "Arrow keys and a function row in a compact body. This is the layout I wish every keyboard used."
+      },
+      {
+        "author": "Felix B.",
+        "rating": 4.5,
+        "title": "Build quality is superb",
+        "body": "Zero flex, tight tolerances. It feels like it will outlast the computer it is plugged into."
+      }
+    ]
+  },
+  {
+    "title": "WH-1000 Noise Cancelling",
+    "brand": "Sony",
+    "category": "Headphones",
+    "price": 349.0,
+    "rating": 4.7,
+    "inventory": 18,
+    "description": "Over-ear active noise cancelling headphones tuned for long flights and open-plan offices. Thirty-hour battery and a folding travel case.",
+    "specifications": {
+      "type": "over-ear closed",
+      "anc": "adaptive",
+      "battery": "30 hours",
+      "weight": "250 g",
+      "codecs": "LDAC, AAC, SBC"
+    },
+    "reviews": [
+      {
+        "author": "Claire V.",
+        "rating": 5.0,
+        "title": "Made long flights bearable",
+        "body": "The noise cancelling removes engine drone completely. I arrived off a nine-hour flight actually rested for once."
+      },
+      {
+        "author": "Diego F.",
+        "rating": 5.0,
+        "title": "Battery life is excellent",
+        "body": "I charge them roughly once a week with daily commuting use. Thirty hours is not a marketing number."
+      },
+      {
+        "author": "Anya T.",
+        "rating": 4.0,
+        "title": "Warm ears after a few hours",
+        "body": "Superb sound and isolation, but the earcups get hot after about three hours of continuous wear."
+      }
+    ]
+  },
+  {
+    "title": "QuietComfort Ultra",
+    "brand": "Bose",
+    "category": "Headphones",
+    "price": 429.0,
+    "rating": 4.6,
+    "inventory": 11,
+    "description": "Premium comfort-focused noise cancelling headphones with a lightweight clamp designed for all-day wear.",
+    "specifications": {
+      "type": "over-ear closed",
+      "anc": "adaptive",
+      "battery": "24 hours",
+      "weight": "254 g",
+      "comfort": "plush memory foam"
+    },
+    "reviews": [
+      {
+        "author": "Robin H.",
+        "rating": 5.0,
+        "title": "The most comfortable I have owned",
+        "body": "I wear them for six hours straight without noticing. Nothing else I have tried comes close on comfort."
+      },
+      {
+        "author": "Mei L.",
+        "rating": 4.0,
+        "title": "Battery is the weak point",
+        "body": "Fantastic in every way except battery — 24 hours is fine, but competitors do 30 and I notice on long trips."
+      }
+    ]
+  },
+  {
+    "title": "Studio Monitor Reference 80",
+    "brand": "Sennheiser",
+    "category": "Headphones",
+    "price": 279.0,
+    "rating": 4.8,
+    "inventory": 6,
+    "description": "Open-back reference headphones for mixing and critical listening. Flat frequency response with a wide soundstage.",
+    "specifications": {
+      "type": "open-back",
+      "impedance": "80 ohm",
+      "frequency": "10 Hz - 41 kHz",
+      "weight": "260 g",
+      "cable": "detachable 3m"
+    },
+    "reviews": [
+      {
+        "author": "Ola N.",
+        "rating": 5.0,
+        "title": "Honest sound",
+        "body": "They tell you the truth about your mix, which is not always flattering but is the entire point."
+      },
+      {
+        "author": "Sanjay R.",
+        "rating": 4.0,
+        "title": "Zero isolation, by design",
+        "body": "Open-back means everyone hears your music and you hear the room. Studio use only — useless on a train."
+      }
+    ]
+  },
+  {
+    "title": "SportBuds Active",
+    "brand": "Jabra",
+    "category": "Headphones",
+    "price": 129.0,
+    "rating": 4.2,
+    "inventory": 44,
+    "description": "Sweat-resistant wireless earbuds with a secure fit for running and gym use. Compact charging case.",
+    "specifications": {
+      "type": "in-ear true wireless",
+      "water_resistance": "IP57",
+      "battery": "8 hours + 24 in case",
+      "weight": "5.5 g each"
+    },
+    "reviews": [
+      {
+        "author": "Tess A.",
+        "rating": 4.0,
+        "title": "They stay put",
+        "body": "Ran a half marathon in the rain and neither bud shifted. That is all I ask for."
+      },
+      {
+        "author": "Luca M.",
+        "rating": 4.0,
+        "title": "Battery life could be better",
+        "body": "Eight hours per charge is fine for workouts but I would not fly with them as my only pair."
+      },
+      {
+        "author": "Ben Q.",
+        "rating": 3.5,
+        "title": "Muddy bass",
+        "body": "The fit and durability are great. The sound quality is clearly a step below wired options at this price."
+      }
+    ]
+  },
+  {
+    "title": "AirPods Pro 3",
+    "brand": "Apple",
+    "category": "Headphones",
+    "price": 249.0,
+    "rating": 4.5,
+    "inventory": 30,
+    "description": "Compact noise cancelling earbuds with transparency mode and seamless switching between devices.",
+    "specifications": {
+      "type": "in-ear true wireless",
+      "anc": "active",
+      "battery": "6 hours + 24 in case",
+      "features": "transparency mode, spatial audio"
+    },
+    "reviews": [
+      {
+        "author": "Jess W.",
+        "rating": 5.0,
+        "title": "Switching between devices is seamless",
+        "body": "They follow me from laptop to phone without a thought. That convenience is why I keep buying them."
+      },
+      {
+        "author": "Karl D.",
+        "rating": 4.0,
+        "title": "Great for travel, short battery",
+        "body": "Small enough for any pocket which makes them the travel default, but six hours means charging mid-flight."
+      }
+    ]
+  },
+  {
+    "title": "UltraWide 34 Curved",
+    "brand": "LG",
+    "category": "Monitors",
+    "price": 799.0,
+    "rating": 4.5,
+    "inventory": 8,
+    "description": "Thirty-four-inch curved ultrawide monitor that replaces a dual-monitor setup. USB-C with 90W power delivery drives a laptop over a single cable.",
+    "specifications": {
+      "size": "34 inch",
+      "resolution": "3440x1440",
+      "refresh": "100 Hz",
+      "panel": "IPS",
+      "usb_c_power": "90 W"
+    },
+    "reviews": [
+      {
+        "author": "Ana P.",
+        "rating": 5.0,
+        "title": "One cable to the laptop",
+        "body": "USB-C carries video, data and charging. My desk went from four cables to one."
+      },
+      {
+        "author": "Greg S.",
+        "rating": 4.0,
+        "title": "Curve takes adjusting",
+        "body": "Took about a week before the curve felt natural. Now going back to flat feels wrong."
+      }
+    ]
+  },
+  {
+    "title": "ProArt 27 4K",
+    "brand": "Asus",
+    "category": "Monitors",
+    "price": 649.0,
+    "rating": 4.7,
+    "inventory": 14,
+    "description": "Twenty-seven-inch 4K monitor with factory colour calibration for photo and video editing. Includes a shading hood.",
+    "specifications": {
+      "size": "27 inch",
+      "resolution": "3840x2160",
+      "panel": "IPS",
+      "colour": "100% sRGB, 98% DCI-P3",
+      "calibration": "factory report included"
+    },
+    "reviews": [
+      {
+        "author": "Ida F.",
+        "rating": 5.0,
+        "title": "Calibration report is a nice touch",
+        "body": "Arrived with a printed calibration report and it matched my own measurements. Trustworthy out of the box."
+      },
+      {
+        "author": "Noel B.",
+        "rating": 4.5,
+        "title": "Sharp and colour accurate",
+        "body": "4K at 27 inches is the sweet spot for detail work without scaling headaches."
+      }
+    ]
+  },
+  {
+    "title": "GameSync 27 240Hz",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "price": 549.0,
+    "rating": 4.4,
+    "inventory": 19,
+    "description": "Fast 240 Hz gaming monitor with a 1 ms response time and adaptive sync.",
+    "specifications": {
+      "size": "27 inch",
+      "resolution": "2560x1440",
+      "refresh": "240 Hz",
+      "panel": "VA",
+      "response": "1 ms"
+    },
+    "reviews": [
+      {
+        "author": "Vik T.",
+        "rating": 5.0,
+        "title": "Buttery smooth",
+        "body": "The jump from 144 to 240 Hz is smaller than 60 to 144, but it is there."
+      },
+      {
+        "author": "Mona C.",
+        "rating": 4.0,
+        "title": "VA black smearing",
+        "body": "Great motion clarity overall, but dark scenes show some smearing typical of VA panels."
+      }
+    ]
+  },
+  {
+    "title": "Portable Screen 15",
+    "brand": "Lenovo",
+    "category": "Monitors",
+    "price": 249.0,
+    "rating": 4.1,
+    "inventory": 25,
+    "description": "Fifteen-inch USB-C portable monitor for working away from a desk. Fold-out cover doubles as a stand.",
+    "specifications": {
+      "size": "15.6 inch",
+      "resolution": "1920x1080",
+      "panel": "IPS",
+      "weight": "780 g",
+      "connection": "USB-C"
+    },
+    "reviews": [
+      {
+        "author": "Ruth E.",
+        "rating": 4.0,
+        "title": "Great for hotel desks",
+        "body": "I travel for consulting work and a second screen in the hotel room makes a real difference. Light enough to justify the bag space."
+      },
+      {
+        "author": "Sean M.",
+        "rating": 4.0,
+        "title": "Needs a powered port",
+        "body": "Works off one USB-C cable on my laptop, but on lower-power tablets it needs its own power supply."
+      }
+    ]
+  },
+  {
+    "title": "Vertical Stack 24",
+    "brand": "Dell",
+    "category": "Monitors",
+    "price": 329.0,
+    "rating": 4.3,
+    "inventory": 22,
+    "description": "Twenty-four-inch monitor that pivots to portrait orientation, popular with developers for reading long files and logs.",
+    "specifications": {
+      "size": "24 inch",
+      "resolution": "1920x1200",
+      "panel": "IPS",
+      "pivot": "90 degree portrait",
+      "aspect": "16:10"
+    },
+    "reviews": [
+      {
+        "author": "Tariq H.",
+        "rating": 5.0,
+        "title": "Portrait mode for code",
+        "body": "Rotated to portrait it shows about a hundred lines of code at once. I do not want to go back."
+      },
+      {
+        "author": "Lena K.",
+        "rating": 4.0,
+        "title": "16:10 is underrated",
+        "body": "The extra vertical pixels over 16:9 are genuinely useful every single day."
+      }
+    ]
+  },
+  {
+    "title": "MX Precision 3S",
+    "brand": "Logitech",
+    "category": "Mice",
+    "price": 99.0,
+    "rating": 4.7,
+    "inventory": 37,
+    "description": "Ergonomic wireless mouse with a silent scroll wheel and a sculpted shape for all-day desk use. Multi-device switching.",
+    "specifications": {
+      "shape": "ergonomic right-handed",
+      "dpi": "8000",
+      "connection": "Bluetooth and USB dongle",
+      "battery": "70 days",
+      "buttons": "7 programmable"
+    },
+    "reviews": [
+      {
+        "author": "Omar Z.",
+        "rating": 5.0,
+        "title": "The comfort standard",
+        "body": "Eight hours a day for two years and my hand has never ached. The shape is just right."
+      },
+      {
+        "author": "Fran D.",
+        "rating": 5.0,
+        "title": "Battery lasts forever",
+        "body": "I charge it about every two months. It is easy to forget it has a battery at all."
+      },
+      {
+        "author": "Nils A.",
+        "rating": 4.0,
+        "title": "Too big for small hands",
+        "body": "Superb mouse but genuinely large. My partner finds it uncomfortable."
+      }
+    ]
+  },
+  {
+    "title": "Vertical Ergo Mouse",
+    "brand": "Anker",
+    "category": "Mice",
+    "price": 39.0,
+    "rating": 4.2,
+    "inventory": 48,
+    "description": "Vertical mouse that holds the wrist in a neutral handshake position to reduce forearm strain.",
+    "specifications": {
+      "shape": "vertical 57 degree",
+      "dpi": "1600",
+      "connection": "2.4 GHz dongle",
+      "battery": "AA, 6 months"
+    },
+    "reviews": [
+      {
+        "author": "Cara J.",
+        "rating": 5.0,
+        "title": "Wrist pain gone in a week",
+        "body": "I was skeptical about the shape but my wrist stopped hurting almost immediately."
+      },
+      {
+        "author": "Hank W.",
+        "rating": 3.5,
+        "title": "Cheap plastic feel",
+        "body": "It does the ergonomic job well. The build quality is clearly budget."
+      }
+    ]
+  },
+  {
+    "title": "Pro Gaming Mouse 8K",
+    "brand": "Razer",
+    "category": "Mice",
+    "price": 149.0,
+    "rating": 4.5,
+    "inventory": 13,
+    "description": "Lightweight competitive gaming mouse with an 8000 Hz polling rate and optical switches.",
+    "specifications": {
+      "shape": "ambidextrous",
+      "dpi": "30000",
+      "polling": "8000 Hz",
+      "weight": "58 g",
+      "switches": "optical"
+    },
+    "reviews": [
+      {
+        "author": "Zed P.",
+        "rating": 5.0,
+        "title": "Featherweight",
+        "body": "58 grams changes how you aim. Going back to a heavier mouse feels like dragging a brick."
+      },
+      {
+        "author": "Iris N.",
+        "rating": 4.0,
+        "title": "Cable is stiff",
+        "body": "Wireless is flawless. The included charging cable is unusually stiff for wired play."
+      }
+    ]
+  },
+  {
+    "title": "Travel Mouse Mini",
+    "brand": "Microsoft",
+    "category": "Mice",
+    "price": 29.0,
+    "rating": 4.0,
+    "inventory": 60,
+    "description": "Pocket-sized Bluetooth mouse for laptop bags. Flat profile with a magnetic cover.",
+    "specifications": {
+      "shape": "compact flat",
+      "dpi": "1000",
+      "connection": "Bluetooth",
+      "weight": "62 g",
+      "battery": "AAA, 4 months"
+    },
+    "reviews": [
+      {
+        "author": "Ravi T.",
+        "rating": 4.0,
+        "title": "Perfect for travel",
+        "body": "Fits in a jacket pocket and beats a trackpad on a hotel desk. Not for long sessions."
+      },
+      {
+        "author": "Dot F.",
+        "rating": 3.5,
+        "title": "Too flat for daily use",
+        "body": "Fine as a travel backup. My hand cramps if I use it for more than an hour."
+      }
+    ]
+  },
+  {
+    "title": "ErgoTask Mesh Pro",
+    "brand": "Herman Miller",
+    "category": "Chairs",
+    "price": 1395.0,
+    "rating": 4.8,
+    "inventory": 4,
+    "description": "Fully adjustable mesh task chair with lumbar support and a twelve-year warranty. Designed for eight-plus hours of seated work.",
+    "specifications": {
+      "material": "mesh back, foam seat",
+      "adjustments": "seat height, depth, arm 4D, lumbar, tilt tension",
+      "warranty": "12 years",
+      "weight_capacity": "159 kg"
+    },
+    "reviews": [
+      {
+        "author": "Paula G.",
+        "rating": 5.0,
+        "title": "Worth every cent",
+        "body": "I spent a year with back pain from a cheap chair. Three weeks in this one and it was gone. The lumbar adjustment is the difference."
+      },
+      {
+        "author": "Sten O.",
+        "rating": 5.0,
+        "title": "Adjustable in every direction",
+        "body": "Took twenty minutes to dial in and now it fits me exactly. Nothing else has this range."
+      },
+      {
+        "author": "Ivy R.",
+        "rating": 4.0,
+        "title": "Expensive",
+        "body": "It is a genuinely excellent chair and it costs as much as a laptop. Know what you are buying."
+      }
+    ]
+  },
+  {
+    "title": "BudgetErgo Mesh",
+    "brand": "IKEA",
+    "category": "Chairs",
+    "price": 199.0,
+    "rating": 3.9,
+    "inventory": 31,
+    "description": "Affordable mesh office chair with height and tilt adjustment. Sensible choice for occasional home-office use.",
+    "specifications": {
+      "material": "mesh back",
+      "adjustments": "seat height, tilt lock",
+      "warranty": "3 years",
+      "weight_capacity": "110 kg"
+    },
+    "reviews": [
+      {
+        "author": "Nate B.",
+        "rating": 4.0,
+        "title": "Good for the price",
+        "body": "For two hundred it is fine. The armrests do not adjust and the lumbar support is fixed."
+      },
+      {
+        "author": "Suki H.",
+        "rating": 3.5,
+        "title": "Not for full days",
+        "body": "Comfortable for a couple of hours. By hour six I am shifting around constantly."
+      }
+    ]
+  },
+  {
+    "title": "Standing Desk Chair Perch",
+    "brand": "Varier",
+    "category": "Chairs",
+    "price": 449.0,
+    "rating": 4.3,
+    "inventory": 9,
+    "description": "Perch-style leaning stool for use with a standing desk, encouraging an active posture between sitting and standing.",
+    "specifications": {
+      "material": "padded seat",
+      "height_range": "60-85 cm",
+      "tilt": "forward perch",
+      "weight": "7 kg"
+    },
+    "reviews": [
+      {
+        "author": "Elin K.",
+        "rating": 4.0,
+        "title": "Good middle ground",
+        "body": "Lets me take weight off my legs at a standing desk without properly sitting down. Not a replacement for a real chair."
+      },
+      {
+        "author": "Gus L.",
+        "rating": 4.5,
+        "title": "Core workout by accident",
+        "body": "You engage your core to stay balanced. My posture improved noticeably over a month."
+      }
+    ]
+  },
+  {
+    "title": "Executive Leather Recline",
+    "brand": "Steelcase",
+    "category": "Chairs",
+    "price": 899.0,
+    "rating": 4.4,
+    "inventory": 6,
+    "description": "High-back leather executive chair with a deep recline and padded armrests.",
+    "specifications": {
+      "material": "top-grain leather",
+      "adjustments": "height, recline, arm height",
+      "warranty": "10 years",
+      "weight_capacity": "136 kg"
+    },
+    "reviews": [
+      {
+        "author": "Vera M.",
+        "rating": 4.0,
+        "title": "Comfortable, runs hot",
+        "body": "Very comfortable and looks the part in video calls. Leather gets warm in summer in a way mesh does not."
+      },
+      {
+        "author": "Ted S.",
+        "rating": 5.0,
+        "title": "Built like furniture",
+        "body": "Feels solid and heavy in a reassuring way. Ten-year warranty says a lot."
+      }
+    ]
+  },
+  {
+    "title": "Alpha 7 Compact Mirrorless",
+    "brand": "Sony",
+    "category": "Cameras",
+    "price": 1799.0,
+    "rating": 4.7,
+    "inventory": 5,
+    "description": "Full-frame mirrorless camera in a compact body, with in-body stabilisation and excellent low-light performance. A strong choice for travel photography.",
+    "specifications": {
+      "sensor": "full-frame 33 MP",
+      "stabilisation": "5-axis IBIS",
+      "video": "4K 60fps",
+      "weight": "650 g body",
+      "battery": "610 shots"
+    },
+    "reviews": [
+      {
+        "author": "Hana O.",
+        "rating": 5.0,
+        "title": "My travel camera now",
+        "body": "Full-frame quality at a weight I will actually carry on a hike. The stabilisation lets me shoot handheld at absurdly slow shutter speeds."
+      },
+      {
+        "author": "Ali R.",
+        "rating": 4.0,
+        "title": "Menus are a maze",
+        "body": "Image quality is superb. The menu system takes weeks to learn and I still hunt for settings."
+      },
+      {
+        "author": "Jonas E.",
+        "rating": 5.0,
+        "title": "Low light is the headline",
+        "body": "Usable images at ISO 12800. Changed what I can shoot indoors without a flash."
+      }
+    ]
+  },
+  {
+    "title": "PocketVlog 4K",
+    "brand": "DJI",
+    "category": "Cameras",
+    "price": 349.0,
+    "rating": 4.4,
+    "inventory": 27,
+    "description": "Tiny gimbal-stabilised camera for vlogging and travel, small enough for a jacket pocket.",
+    "specifications": {
+      "sensor": "1/1.7 inch",
+      "stabilisation": "3-axis mechanical gimbal",
+      "video": "4K 60fps",
+      "weight": "117 g",
+      "battery": "140 minutes"
+    },
+    "reviews": [
+      {
+        "author": "Kim L.",
+        "rating": 5.0,
+        "title": "Unbelievably small",
+        "body": "It is the size of a highlighter and the footage is smoother than my phone with software stabilisation."
+      },
+      {
+        "author": "Rex A.",
+        "rating": 4.0,
+        "title": "Battery life is short",
+        "body": "About two hours of recording. Fine for a day out if you carry the case, tight for a full travel day."
+      },
+      {
+        "author": "Nour S.",
+        "rating": 4.0,
+        "title": "Great for travel, poor in low light",
+        "body": "Daylight footage is excellent. Indoors and at dusk the small sensor shows."
+      }
+    ]
+  },
+  {
+    "title": "Action Cam Rugged 12",
+    "brand": "GoPro",
+    "category": "Cameras",
+    "price": 399.0,
+    "rating": 4.5,
+    "inventory": 23,
+    "description": "Waterproof action camera with strong stabilisation, designed for cycling, diving and skiing.",
+    "specifications": {
+      "sensor": "1/1.9 inch",
+      "waterproof": "10 m without housing",
+      "video": "5.3K 60fps",
+      "weight": "154 g",
+      "battery": "90 minutes"
+    },
+    "reviews": [
+      {
+        "author": "Bo H.",
+        "rating": 5.0,
+        "title": "Survives everything",
+        "body": "Two seasons of mountain biking, one crash into a river, still working."
+      },
+      {
+        "author": "Lise T.",
+        "rating": 4.0,
+        "title": "Battery in the cold",
+        "body": "In winter the battery drops from ninety minutes to about thirty. Carry spares."
+      }
+    ]
+  },
+  {
+    "title": "Webcam Studio 4K",
+    "brand": "Logitech",
+    "category": "Cameras",
+    "price": 199.0,
+    "rating": 4.3,
+    "inventory": 35,
+    "description": "Fixed 4K webcam with autofocus and light correction for video calls and streaming.",
+    "specifications": {
+      "resolution": "4K 30fps",
+      "field_of_view": "90 degrees adjustable",
+      "focus": "autofocus",
+      "features": "HDR light correction"
+    },
+    "reviews": [
+      {
+        "author": "Ash P.",
+        "rating": 4.0,
+        "title": "Big upgrade over a laptop camera",
+        "body": "The light correction handles my backlit window without making me a silhouette."
+      },
+      {
+        "author": "Rina G.",
+        "rating": 4.0,
+        "title": "Autofocus hunts",
+        "body": "Sharp once settled, but it hunts for focus if I move around while talking."
+      }
+    ]
+  },
+  {
+    "title": "Instant Print Retro",
+    "brand": "Fujifilm",
+    "category": "Cameras",
+    "price": 89.0,
+    "rating": 4.1,
+    "inventory": 55,
+    "description": "Instant film camera producing credit-card-sized prints. Simple point-and-shoot operation.",
+    "specifications": {
+      "film": "instant mini",
+      "flash": "automatic",
+      "weight": "293 g",
+      "focus": "fixed 60 cm to infinity"
+    },
+    "reviews": [
+      {
+        "author": "Mia C.",
+        "rating": 4.0,
+        "title": "Fun, film is pricey",
+        "body": "A joy at parties. Remember that each print costs roughly a euro."
+      },
+      {
+        "author": "Leo B.",
+        "rating": 4.0,
+        "title": "Great gift",
+        "body": "Bought it for a friend's birthday and it was the hit of the evening."
+      }
+    ]
+  },
+  {
+    "title": "USB-C Dock 12-in-1",
+    "brand": "Anker",
+    "category": "Accessories",
+    "price": 179.0,
+    "rating": 4.4,
+    "inventory": 26,
+    "description": "Twelve-port USB-C docking station driving dual monitors, gigabit ethernet and 100W laptop charging from one cable.",
+    "specifications": {
+      "ports": "2x HDMI, 1x DP, 4x USB-A, 2x USB-C, ethernet, SD, microSD",
+      "power_delivery": "100 W",
+      "monitors": "dual 4K 60Hz"
+    },
+    "reviews": [
+      {
+        "author": "Jan V.",
+        "rating": 5.0,
+        "title": "Cleaned up my desk",
+        "body": "One cable to the laptop, everything else lives on the dock. Exactly what I wanted."
+      },
+      {
+        "author": "Ola F.",
+        "rating": 4.0,
+        "title": "Runs warm",
+        "body": "Works flawlessly but the aluminium body gets hot enough to notice when driving two monitors."
+      }
+    ]
+  },
+  {
+    "title": "Laptop Stand Aluminium",
+    "brand": "Rain Design",
+    "category": "Accessories",
+    "price": 69.0,
+    "rating": 4.6,
+    "inventory": 42,
+    "description": "Solid aluminium laptop stand that raises the screen to eye level to improve neck posture.",
+    "specifications": {
+      "material": "single-piece aluminium",
+      "height": "15 cm",
+      "compatibility": "11-17 inch laptops",
+      "weight": "1.1 kg"
+    },
+    "reviews": [
+      {
+        "author": "Kate M.",
+        "rating": 5.0,
+        "title": "Neck pain gone",
+        "body": "Raising the screen to eye level fixed a persistent neck ache within a fortnight."
+      },
+      {
+        "author": "Sam T.",
+        "rating": 4.0,
+        "title": "Heavy, in a good way",
+        "body": "Too heavy to travel with, completely stable on a desk."
+      }
+    ]
+  },
+  {
+    "title": "Blue Light Desk Lamp",
+    "brand": "BenQ",
+    "category": "Accessories",
+    "price": 209.0,
+    "rating": 4.5,
+    "inventory": 17,
+    "description": "Monitor-mounted light bar that illuminates the desk without reflecting off the screen. Auto-dimming to ambient light.",
+    "specifications": {
+      "mount": "monitor clip",
+      "colour_temperature": "2700-6500 K",
+      "auto_dim": "ambient sensor",
+      "power": "USB-C"
+    },
+    "reviews": [
+      {
+        "author": "Wren D.",
+        "rating": 5.0,
+        "title": "No screen glare",
+        "body": "It lights the desk and not the display, which is the entire trick. Late-night work is far less tiring."
+      },
+      {
+        "author": "Otto K.",
+        "rating": 4.0,
+        "title": "Expensive for a lamp",
+        "body": "It works beautifully. It is still two hundred for a lamp."
+      }
+    ]
+  },
+  {
+    "title": "Noise Isolating Earplugs",
+    "brand": "Loop",
+    "category": "Accessories",
+    "price": 34.0,
+    "rating": 4.2,
+    "inventory": 70,
+    "description": "Reusable filtered earplugs that reduce volume evenly without muffling speech. Popular in open-plan offices.",
+    "specifications": {
+      "reduction": "20 dB",
+      "material": "silicone tips",
+      "sizes": "4 included",
+      "case": "compact carry case"
+    },
+    "reviews": [
+      {
+        "author": "Ines A.",
+        "rating": 4.0,
+        "title": "Focus in an open office",
+        "body": "Takes the edge off the room without making me feel cut off. Cheaper than headphones and no battery."
+      },
+      {
+        "author": "Piet R.",
+        "rating": 4.0,
+        "title": "Fit takes trial and error",
+        "body": "The largest tips were the only ones that stayed in for me. Glad they include four sizes."
+      }
+    ]
+  },
+  {
+    "title": "Cable Management Kit",
+    "brand": "Belkin",
+    "category": "Accessories",
+    "price": 24.0,
+    "rating": 4.0,
+    "inventory": 88,
+    "description": "Adhesive clips, sleeves and ties for tidying cables under a desk.",
+    "specifications": {
+      "contents": "12 clips, 2 sleeves, 20 ties",
+      "adhesive": "3M backing",
+      "sleeve_length": "1.5 m"
+    },
+    "reviews": [
+      {
+        "author": "Fay L.",
+        "rating": 4.0,
+        "title": "Cheap and effective",
+        "body": "Nothing clever about it, but my desk went from a nest to tidy in half an hour."
+      },
+      {
+        "author": "Dan W.",
+        "rating": 3.5,
+        "title": "Adhesive fails on textured surfaces",
+        "body": "Stuck fine to my smooth desk, fell straight off the textured underside."
+      }
+    ]
+  },
+  {
+    "title": "Portable SSD 2TB",
+    "brand": "Samsung",
+    "category": "Accessories",
+    "price": 189.0,
+    "rating": 4.7,
+    "inventory": 21,
+    "description": "Pocket-sized 2 TB external SSD with hardware encryption, for editing video directly off the drive while travelling.",
+    "specifications": {
+      "capacity": "2 TB",
+      "speed": "1050 MB/s read",
+      "interface": "USB-C 3.2",
+      "encryption": "AES-256 hardware",
+      "weight": "58 g"
+    },
+    "reviews": [
+      {
+        "author": "Rhea P.",
+        "rating": 5.0,
+        "title": "Edit straight off the drive",
+        "body": "Fast enough to cut 4K footage directly from it. Saves copying to the laptop on location."
+      },
+      {
+        "author": "Milo J.",
+        "rating": 5.0,
+        "title": "Tiny and rugged",
+        "body": "Smaller than a credit card, survives being loose in a camera bag."
+      }
+    ]
+  },
+  {
+    "title": "Mechanical Keyboard Wrist Rest",
+    "brand": "Glorious",
+    "category": "Accessories",
+    "price": 29.0,
+    "rating": 4.3,
+    "inventory": 46,
+    "description": "Padded wrist rest sized for tenkeyless mechanical keyboards, to keep wrists level while typing.",
+    "specifications": {
+      "size": "TKL 35 cm",
+      "material": "memory foam, vegan leather",
+      "base": "non-slip rubber"
+    },
+    "reviews": [
+      {
+        "author": "Ada N.",
+        "rating": 4.0,
+        "title": "Comfortable, needs cleaning",
+        "body": "Noticeably better wrist angle. The surface shows marks and needs wiping down weekly."
+      },
+      {
+        "author": "Bram S.",
+        "rating": 4.5,
+        "title": "Right height for a TKL",
+        "body": "Matches the keyboard height exactly, which is the whole point."
+      }
+    ]
+  },
+  {
+    "title": "Webcam Privacy Shutter 3-pack",
+    "brand": "Targus",
+    "category": "Accessories",
+    "price": 12.0,
+    "rating": 4.1,
+    "inventory": 95,
+    "description": "Slim adhesive sliding covers for laptop and monitor webcams.",
+    "specifications": {
+      "thickness": "0.7 mm",
+      "quantity": "3",
+      "compatibility": "laptops, tablets, monitors"
+    },
+    "reviews": [
+      {
+        "author": "Ric T.",
+        "rating": 4.0,
+        "title": "Thin enough to close the lid",
+        "body": "At 0.7 mm the laptop still shuts properly, which is not true of thicker covers."
+      }
+    ]
+  },
+  {
+    "title": "Travel Router AX",
+    "brand": "GL.iNet",
+    "category": "Accessories",
+    "price": 89.0,
+    "rating": 4.4,
+    "inventory": 18,
+    "description": "Pocket travel router creating a private encrypted network from hotel or cafe wifi, with a built-in VPN client.",
+    "specifications": {
+      "wifi": "Wi-Fi 6 AX1800",
+      "vpn": "WireGuard and OpenVPN client",
+      "weight": "125 g",
+      "power": "USB-C"
+    },
+    "reviews": [
+      {
+        "author": "Nell H.",
+        "rating": 5.0,
+        "title": "Essential for travel",
+        "body": "I no longer put my laptop directly on hotel wifi. Sets up in two minutes and everything routes through my VPN."
+      },
+      {
+        "author": "Omar B.",
+        "rating": 4.0,
+        "title": "Fiddly first setup",
+        "body": "Once configured it is flawless. The first configuration took me an evening of reading docs."
+      }
+    ]
+  },
+  {
+    "title": "Bluetooth Speaker Rugged",
+    "brand": "JBL",
+    "category": "Accessories",
+    "price": 129.0,
+    "rating": 4.5,
+    "inventory": 33,
+    "description": "Waterproof portable Bluetooth speaker with a twenty-hour battery, built for beaches and campsites.",
+    "specifications": {
+      "battery": "20 hours",
+      "water_resistance": "IP67",
+      "weight": "680 g",
+      "connection": "Bluetooth 5.3"
+    },
+    "reviews": [
+      {
+        "author": "Zoe K.",
+        "rating": 5.0,
+        "title": "Battery lasts a whole weekend",
+        "body": "Took it camping for three days on one charge with music most of the time."
+      },
+      {
+        "author": "Finn D.",
+        "rating": 4.0,
+        "title": "Bass is boomy",
+        "body": "Loud and durable. The bass is exaggerated in a way that gets tiring indoors."
+      }
+    ]
+  },
+  {
+    "title": "Monitor Arm Dual",
+    "brand": "Ergotron",
+    "category": "Accessories",
+    "price": 249.0,
+    "rating": 4.6,
+    "inventory": 15,
+    "description": "Gas-spring dual monitor arm that frees desk space and allows fine height and depth positioning.",
+    "specifications": {
+      "monitors": "2 up to 27 inch",
+      "weight_capacity": "9 kg per arm",
+      "mount": "clamp or grommet",
+      "movement": "gas spring"
+    },
+    "reviews": [
+      {
+        "author": "Iva C.",
+        "rating": 5.0,
+        "title": "Reclaimed my desk",
+        "body": "Both monitors float and the space underneath is usable again. Adjustment is effortless."
+      },
+      {
+        "author": "Karl P.",
+        "rating": 4.5,
+        "title": "Solid, heavy clamp",
+        "body": "Feels industrial. Check your desk thickness before ordering."
+      }
+    ]
+  },
+  {
+    "title": "Desk Mat XL Felt",
+    "brand": "Orbitkey",
+    "category": "Accessories",
+    "price": 59.0,
+    "rating": 4.2,
+    "inventory": 39,
+    "description": "Large felt and cork desk mat that defines a work area and quietens keyboard and mouse noise.",
+    "specifications": {
+      "size": "80 x 40 cm",
+      "material": "felt top, cork base",
+      "thickness": "3 mm"
+    },
+    "reviews": [
+      {
+        "author": "Hedy F.",
+        "rating": 4.0,
+        "title": "Quieter typing",
+        "body": "Absorbs a surprising amount of keyboard noise. Looks smart too."
+      },
+      {
+        "author": "Yann M.",
+        "rating": 4.0,
+        "title": "Felt attracts crumbs",
+        "body": "Works well, but felt holds dust and crumbs more than a hard surface."
+      }
+    ]
+  },
+  {
+    "title": "Powerbank 20000 PD",
+    "brand": "Anker",
+    "category": "Accessories",
+    "price": 79.0,
+    "rating": 4.6,
+    "inventory": 29,
+    "description": "Twenty-thousand milliamp-hour power bank with 100W USB-C output, capable of charging a laptop on the move.",
+    "specifications": {
+      "capacity": "20000 mAh",
+      "output": "100 W USB-C",
+      "ports": "2x USB-C, 1x USB-A",
+      "weight": "460 g",
+      "airline_safe": "yes, under 100 Wh"
+    },
+    "reviews": [
+      {
+        "author": "Cleo R.",
+        "rating": 5.0,
+        "title": "Charges my laptop on a train",
+        "body": "100W means it actually charges the laptop rather than slowing the drain. Battery life anxiety solved for travel."
+      },
+      {
+        "author": "Ned A.",
+        "rating": 4.0,
+        "title": "Heavy in a day bag",
+        "body": "460 grams is noticeable. Worth it on travel days, left at home otherwise."
+      }
+    ]
+  },
+  {
+    "title": "Screen Cleaning Kit",
+    "brand": "Whoosh",
+    "category": "Accessories",
+    "price": 19.0,
+    "rating": 4.0,
+    "inventory": 77,
+    "description": "Streak-free screen cleaning spray with two microfibre cloths, safe for coated displays.",
+    "specifications": {
+      "volume": "100 ml",
+      "cloths": "2 microfibre",
+      "safe_for": "OLED, matte and glossy coatings"
+    },
+    "reviews": [
+      {
+        "author": "Uma S.",
+        "rating": 4.0,
+        "title": "No streaks",
+        "body": "Actually leaves no streaks on a matte laptop screen, unlike everything else I have tried."
+      }
+    ]
+  },
+  {
+    "title": "Laptop Sleeve 14 Recycled",
+    "brand": "Bellroy",
+    "category": "Accessories",
+    "price": 65.0,
+    "rating": 4.4,
+    "inventory": 36,
+    "description": "Slim padded laptop sleeve made from recycled fabric, with a front pocket for a charger.",
+    "specifications": {
+      "fits": "14 inch laptops",
+      "material": "recycled woven fabric",
+      "pocket": "front zip",
+      "weight": "180 g"
+    },
+    "reviews": [
+      {
+        "author": "Vic L.",
+        "rating": 4.0,
+        "title": "Slim and protective",
+        "body": "Adds almost no bulk to the bag but the padding is real. Good for travel."
+      },
+      {
+        "author": "Tam O.",
+        "rating": 5.0,
+        "title": "Charger pocket is the winner",
+        "body": "The front pocket fits a laptop charger and a mouse, which is exactly what I needed."
+      }
+    ]
+  },
+  {
+    "title": "USB Microphone Podcast",
+    "brand": "Rode",
+    "category": "Accessories",
+    "price": 169.0,
+    "rating": 4.7,
+    "inventory": 20,
+    "description": "Cardioid USB condenser microphone for podcasting and video calls, with a built-in headphone monitor.",
+    "specifications": {
+      "pattern": "cardioid",
+      "connection": "USB-C",
+      "monitoring": "3.5 mm zero-latency",
+      "sample_rate": "48 kHz"
+    },
+    "reviews": [
+      {
+        "author": "Mo T.",
+        "rating": 5.0,
+        "title": "Transformed my call audio",
+        "body": "People stopped asking me to repeat things. Plug and play on both my machines."
+      },
+      {
+        "author": "Ruth B.",
+        "rating": 4.0,
+        "title": "Picks up desk bumps",
+        "body": "Excellent sound but it transmits every knock on the desk. Get a shock mount."
+      }
+    ]
+  },
+  {
+    "title": "Wireless Charging Pad Trio",
+    "brand": "Belkin",
+    "category": "Accessories",
+    "price": 99.0,
+    "rating": 4.2,
+    "inventory": 24,
+    "description": "Three-device wireless charging pad for phone, earbuds and watch on a single desk footprint.",
+    "specifications": {
+      "devices": "3 simultaneous",
+      "output": "15 W phone, 5 W watch",
+      "standard": "Qi2"
+    },
+    "reviews": [
+      {
+        "author": "Sol V.",
+        "rating": 4.0,
+        "title": "Tidy bedside solution",
+        "body": "Everything charges in one place. Watch and earbuds placement is a bit fussy until you learn it."
+      }
+    ]
+  },
+  {
+    "title": "Ergonomic Footrest Adjustable",
+    "brand": "Fellowes",
+    "category": "Accessories",
+    "price": 49.0,
+    "rating": 4.3,
+    "inventory": 32,
+    "description": "Height and angle adjustable footrest that improves seated posture for shorter users at fixed-height desks.",
+    "specifications": {
+      "height_range": "9-16 cm",
+      "tilt": "0-30 degrees",
+      "surface": "textured non-slip"
+    },
+    "reviews": [
+      {
+        "author": "Pia N.",
+        "rating": 5.0,
+        "title": "Fixed my dangling feet",
+        "body": "At a fixed-height desk my feet never reached the floor properly. This solved lower back ache I had blamed on my chair."
+      }
+    ]
+  },
+  {
+    "title": "Smart Plug Energy Monitor",
+    "brand": "TP-Link",
+    "category": "Accessories",
+    "price": 22.0,
+    "rating": 4.1,
+    "inventory": 64,
+    "description": "Wifi smart plug with energy monitoring, useful for measuring what a desk setup actually costs to run.",
+    "specifications": {
+      "max_load": "16 A",
+      "monitoring": "real-time watts and kWh",
+      "connection": "2.4 GHz wifi"
+    },
+    "reviews": [
+      {
+        "author": "Gil H.",
+        "rating": 4.0,
+        "title": "Surprising numbers",
+        "body": "Measured my monitor and dock at idle and was surprised enough to start switching them off."
+      }
+    ]
+  }
+]
