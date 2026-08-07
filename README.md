@@ -87,7 +87,7 @@ demo-rag/
 │   ├── app/rag/           the four retrieval strategies + SQL safety guard
 │   ├── app/agent/         routing agent
 │   ├── app/prompts/       prompts as .md files, never inline in Python
-│   └── tests/             71 tests, no database required
+│   └── tests/             76 tests, no database required
 ├── packages/shared-types/ TypeScript types shared with the frontend
 ├── data/products.json     ~50 seed products with specs and reviews
 └── docs/                  architecture, RAG internals, API, demo script, decisions
@@ -171,7 +171,7 @@ Short version; the reasoning is in **[docs/decisions.md](docs/decisions.md)**.
 ## Tests
 
 ```bash
-make test     # 71 tests, no database or network required
+make test     # 76 tests, no database or network required
 make lint     # ruff + black + tsc
 ```
 

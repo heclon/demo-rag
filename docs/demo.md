@@ -237,7 +237,7 @@ Points to make:
   fails `tsc`.
 
 ```bash
-make check   # 71 tests + ruff + black + tsc
+make check   # 76 tests + ruff + black + tsc
 ```
 
 ---
